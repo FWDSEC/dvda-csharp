@@ -1,0 +1,38 @@
+# Build
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Qt generated
+*_autogen/
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Binaries
+dvda
+*.dylib
+*.so
+*.dll
+*.o
+*.a
+
+# User data (generated at runtime)
+*.db
+*.log
+session.ini
+
+# OS
+Thumbs.db
+.DS_Store
