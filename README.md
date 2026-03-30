@@ -42,8 +42,14 @@ DVDA contains **15 security challenges** mapped to OWASP categories:
 | Platform | Requirements |
 |----------|-------------|
 | **macOS** | Qt6, CMake, OpenSSL (`brew install qt cmake openssl`) |
-| **Linux** | Qt6, CMake, OpenSSL (`apt install qt6-base-dev cmake libssl-dev g++`) |
+| **Linux (Debian/Kali/Ubuntu)** | See installation commands below |
 | **Windows** | Qt6, CMake, OpenSSL, MSVC or MinGW |
+
+**Debian / Kali / Ubuntu Installation:**
+```bash
+sudo apt update
+sudo apt install qt6-base-dev libqt6sql6-sqlite libssl-dev cmake g++ build-essential
+```
 
 ## Build & Run
 
